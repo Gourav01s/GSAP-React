@@ -71,7 +71,7 @@ body::-webkit-scrollbar {
       }
 
       .hero-text-scroll {
-        @apply rotate-[-3deg] mb-8 border-[.5vw] border-milk;
+        @apply -rotate-3 mb-8 border-[.5vw] border-milk;
 
         .hero-subtitle {
           @apply bg-mid-brown;
@@ -117,7 +117,7 @@ body::-webkit-scrollbar {
     }
 
     .msg-text-scroll {
-      @apply rotate-[3deg] 2xl:translate-y-5 -translate-y-5 absolute z-10 border-[.5vw] border-[#7f3b2d];
+      @apply rotate-3 2xl:translate-y-5 -translate-y-5 absolute z-10 border-[.5vw] border-[#7f3b2d];
     }
   }
 
@@ -125,7 +125,7 @@ body::-webkit-scrollbar {
     @apply min-h-dvh bg-milk;
 
     .flavor-text-scroll {
-      @apply rotate-[-3deg] md:translate-y-5 border-[.5vw] border-milk absolute z-10;
+      @apply -rotate-3 md:translate-y-5 border-[.5vw] border-milk absolute z-10;
     }
 
     .first-text-split h1 {
@@ -169,7 +169,7 @@ body::-webkit-scrollbar {
     }
 
     .nutrition-text-scroll {
-      @apply rotate-[-3deg] border-[.5vw] border-[#e3d3bc] text-nowrap opacity-0 md:-mt-32 -mt-24;
+      @apply -rotate-3 border-[.5vw] border-[#e3d3bc] text-nowrap opacity-0 md:-mt-32 -mt-24;
     }
 
     .nutrition-box {
