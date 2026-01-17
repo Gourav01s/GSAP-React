@@ -58,7 +58,7 @@ const MessageSection = () => {
       scrollTrigger: {
         trigger: ".message-content p",
         start: "top center", 
-        markers: true,
+        // markers: true,
       },
     });
     paragraphTl.from(paragraphMsgSplit.words, {
