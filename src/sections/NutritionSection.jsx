@@ -26,7 +26,7 @@ const NutritionSection = () => {
       type: "chars",
     });
     const paragraphSplit = SplitText.create(".nutrition-section p", {
-      type: "words chars",
+      type: "words lines",
       linesClass: "paragraph-line",
     });
 
@@ -41,7 +41,7 @@ const NutritionSection = () => {
     contentTl.from(titleSplit.chars, {
       yPercent: 100,
       stagger: 0.02,
-      ease: "power2.inOut",
+      ease: "power2.out",
     })
       .from(paragraphSplit.words, {
         yPercent: 300,
@@ -77,7 +77,7 @@ const NutritionSection = () => {
 
       <img src="/images/big-img.png" alt="" className="big-img" />
 
-      <div className="flex md:flex-row flex-col justify-between md:px-10 px-5 mt-14 md:pt-0 ">
+      <div className="flex md:flex-row flex-col justify-between md:px-10 px-5 mt-14 md:mt-0 ">
         <div className="relative inline-block md:translate-y-20">
           <div className="general-title relative flex flex-col justify-center items-center gap-23">
             <div className="overflow-hidden place-self-start">
