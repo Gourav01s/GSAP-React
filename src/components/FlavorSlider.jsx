@@ -24,7 +24,7 @@ const FlavorSlider = () => {
           end: `${scrollAmount + 1100}px`,
           scrub: true,
           pin:true,
-          markers: true,
+          // markers: true,
         }
       });
   

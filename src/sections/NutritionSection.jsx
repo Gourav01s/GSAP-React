@@ -55,7 +55,7 @@ const NutritionSection = () => {
       scrollTrigger: {
         trigger: ".nutrition-section",
         start: "top 80%",
-        markers: true,
+        // markers: true,
       },
     });
 
